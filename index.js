@@ -1,7 +1,7 @@
 // Function for fix transaction methods on transaction context
-module.exports.fixTransactionCallback = (prototype) => {
+module.exports.fixTransactionCallback = function (prototype) {
     prototype.transaction = function(callback) {
-        return prototype._transaction(function(e, ctx) {
+        return this._transaction(function(e, ctx) {
             if (e != null) {
                 throw e
             }
