@@ -1,0 +1,10 @@
+{
+  "name": "@teodevgroup/teo-nodejs-helpers",
+  "version": "0.3.5-alpha.0",
+  "main": "index.js",
+  "scripts": {
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
